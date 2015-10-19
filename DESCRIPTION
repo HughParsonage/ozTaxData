@@ -1,0 +1,12 @@
+Package: ozTaxData
+Type: Package
+Title: ATO tax sample files
+Depends: R (>= 2.10)
+Version: 0.1
+Date: 2015-10-18
+Author: Thomas McMahon
+Maintainer: Thomas McMahon <thmcmahon@gmail.com>
+Description: The ATO has a series of confidentialised sample files of individual tax return information. This package contains a cleaned version of the 2012-13 sample file.
+License: CC0
+LazyData: TRUE
+URL: http://github.com/thmcmahon/superrugby
