@@ -1,9 +1,8 @@
 # Australian Tax Data
 
-This R package contains the `sample_12_13` dataset. This is a cleaned version of
-the 2012-13 two per cent sample of Australian tax return data.
+This R package contains documented and cleaned versions of the 2012-13 and 2013-14 ATO 2 per cent sample files.
 
-See [the ATO website](https://www.ato.gov.au/About-ATO/Research-and-statistics/In-detail/Tax-statistics/Taxation-statistics-2012-13/?anchor=IndSampleFile#IndSampleFile) for further information.
+See [the ATO website](https://www.ato.gov.au/About-ATO/Research-and-statistics/Taxation-statistics/) for further information.
 
 ## Installation and usage
 
@@ -16,11 +15,11 @@ devtools::install_github("thmcmahon/ozTaxData")
 Load the dataset with:
 
 ```{r}
-data(sample_12_13) 
+data(sample_13_14) 
 ```
 
 More information on the variables in the dataset is available in the help file.
 
 ```{r}
-?sample_12_13
+?sample_13_14
 ```
